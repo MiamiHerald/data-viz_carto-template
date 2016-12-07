@@ -1,0 +1,41 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  <div class="container">
+    <div class="row map__intro">
+      <h1>**HEADLINE**</h1>
+      <p>
+        **INTRO**
+      </p>
+    </div>
+    <div class="row">
+      <img class="map__legend" src="images/map-legend.svg" alt="Map legend">
+    </div>
+    <div class="row">
+      <!-- Replace data-url with CartoDB.js link  -->
+      <div id="map" class="js-map map" data-url="https://kdapena.carto.com/api/v2/viz/885ae25c-b58b-11e6-9439-0e3ebc282e83/viz.json"></div>
+    </div>
+    <div class="row">
+      <p class="citations__note">
+        Note: {{ note }}
+      </p>
+    </div>
+    <div class="row">
+      <p class="citations__source">
+        Source: {{ source }}
+      </p>
+      <p class="citations__credit">
+        {{ credit }}
+      </p>
+    </div>
+    <div class="row">
+      <div class="citations__border"></div>
+    </div>
+  </div>
+{% endblock %}
