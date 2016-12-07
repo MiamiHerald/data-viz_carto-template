@@ -1,4 +1,4 @@
-# Data-Viz: Starter
+# Data-Viz: Carto Map Starter
 
 ## About
 
