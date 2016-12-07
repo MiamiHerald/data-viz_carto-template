@@ -2,7 +2,7 @@
 
 ## About
 
-This template will serve as a starting point for embedded data visualization projects for the Miami Herald.
+This template will serve as a starting point for embedded data visualization projects for the Miami Herald using [Carto](https://carto.com/).
 
 ## Installation
 
@@ -10,7 +10,6 @@ Based off of [Gulp Starter](https://github.com/vigetlabs/gulp-starter).
 
 Extra additions include:
 - [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/)
-- [D3](https://d3js.org/) and [Topojson](https://github.com/mbostock/topojson)
 - [jQuery](https://jquery.com/)
 - [pym.js](http://blog.apps.npr.org/pym.js/)
 
