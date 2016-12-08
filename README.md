@@ -13,16 +13,17 @@ Extra additions include:
 - [jQuery](https://jquery.com/)
 - [pym.js](http://blog.apps.npr.org/pym.js/)
 
-Be sure to have node installed and that you are using Node `5.12.0` or earlier as there is an issue with Node 6. See [#302](https://github.com/vigetlabs/gulp-starter/issues/302).
-
 ```
 git clone https://github.com/MiamiHerald/data-viz_carto-template.git MyApp
 cd MyApp
 npm install
 ```
 
-To remove git and add your own repo run `rm -rf .git && git init`
+### Note about Node
 
+If you get an error within `./src/javascripts/app.js`, then you need to switch your Node version to `5.12.0` or earlier using [nvm](https://github.com/creationix/nvm) and run `npm rebuild node-sass` as there is an issue with Node 6+. See [#302](https://github.com/vigetlabs/gulp-starter/issues/302).
+
+To remove git and add start your own repo run `rm -rf .git && git init`
 
 ### Serving
 
